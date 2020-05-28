@@ -1,0 +1,10 @@
+package br.com.cauezito.curso.boot.domain;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "ENDERECOS")
+public class Endereco extends AbstractEntity<Long> {
+
+	private String logradouro;
+}
