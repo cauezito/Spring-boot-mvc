@@ -1,0 +1,9 @@
+package br.com.cauezito.curso.boot.dao;
+
+import org.springframework.stereotype.Repository;
+
+
+@Repository
+public class FuncionarioDaoImpl extends AbstractDao<Funcionario, Long> implements FuncionarioDao {
+
+}
