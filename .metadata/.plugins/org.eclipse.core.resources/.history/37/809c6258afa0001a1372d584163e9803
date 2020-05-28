@@ -1,0 +1,43 @@
+package br.com.cauezito.curso.boot.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import br.com.cauezito.curso.boot.domain.Cargo;
+
+@Service @Transactional
+public class CargoServiceImpl implements CargoService {
+
+	@Override
+	public void salvar(Cargo cargo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void editar(Cargo cargo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void excluir(Long id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Cargo buscarPorId(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Cargo> buscarTodos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
