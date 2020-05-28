@@ -58,7 +58,7 @@
 		
 		<dependency>
    			<groupId>nz.net.ultraq.thymeleaf</groupId>
-  			<artifactId>thymeleaf-layout-dialect</artifactId>
+  			<artifactId>thymeleaf-dialect</artifactId>
 		</dependency>
 		
 	<dependency>

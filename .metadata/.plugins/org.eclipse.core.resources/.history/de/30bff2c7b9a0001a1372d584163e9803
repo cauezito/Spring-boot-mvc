@@ -7,6 +7,3 @@ spring.datasource.data-password = 134679ca
 spring.jpa.hibernate.ddl-auto = update
 spring.jpa.show-sql = true
 spring.jpa.open-in-view = true
-
-#THYMELEAF 
-spring.thymeleaf.cache = false
