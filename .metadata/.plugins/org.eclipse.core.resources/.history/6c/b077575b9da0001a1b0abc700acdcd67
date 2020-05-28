@@ -1,0 +1,19 @@
+package br.com.cauezito.curso.boot.domain;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "DEPARTAMENTOS")
+public class Departamento extends AbstractEntity<Long>{
+	//O id é herdado
+	private String nome;
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+}

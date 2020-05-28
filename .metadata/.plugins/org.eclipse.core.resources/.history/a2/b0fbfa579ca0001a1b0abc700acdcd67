@@ -1,0 +1,11 @@
+package br.com.cauezito.curso.boot.domain;
+
+import java.io.Serializable;
+
+import javax.persistence.Id;
+
+public class AbstractEntity<ID extends Serializable> implements Serializable {
+	@Id
+	private ID id;
+	
+}

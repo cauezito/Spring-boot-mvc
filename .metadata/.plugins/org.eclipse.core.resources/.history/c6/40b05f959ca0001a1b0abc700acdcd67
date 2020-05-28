@@ -1,0 +1,20 @@
+package br.com.cauezito.curso.boot.domain;
+
+import java.io.Serializable;
+
+import javax.persistence.*;
+
+public class AbstractEntity<ID extends Serializable> implements Serializable {
+	
+	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	private ID id;
+
+	public ID getId() {
+		return id;
+	}
+
+	public void setId(ID id) {
+		this.id = id;
+	}
+	
+}
