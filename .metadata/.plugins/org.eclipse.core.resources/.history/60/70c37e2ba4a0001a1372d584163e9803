@@ -1,0 +1,17 @@
+package br.com.cauezito.curso.boot.domain;
+
+import java.math.BigDecimal;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "FUNCIONARIOS")
+public class Funcionario extends AbstractEntity<Long> {
+	
+	@Column(nullable = false, unique = true)
+	private String nome;
+	
+	@Column(nullable = false, columnDefinition = "DECIMAL")
+	private BigDecimal salario;
+	
+}

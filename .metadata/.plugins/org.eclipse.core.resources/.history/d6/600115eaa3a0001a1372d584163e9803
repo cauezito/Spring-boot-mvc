@@ -1,0 +1,8 @@
+package br.com.cauezito.curso.boot.domain;
+
+import javax.persistence.*;
+
+@Entity
+public class Funcionario extends AbstractEntity<Long> {
+
+}
