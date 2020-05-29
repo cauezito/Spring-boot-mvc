@@ -52,7 +52,7 @@ public class DepartamentoController {
 		if(!service.departamentoTemCargos(id)){
 			service.excluir(id);
 		}
-		//O retorno chama o método "listar" dessa classe
+		//O retorno chama o método "listar" nessa classe
 		return listar(model);
 	}
 }
