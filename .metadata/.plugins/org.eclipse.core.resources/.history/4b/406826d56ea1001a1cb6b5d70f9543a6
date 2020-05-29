@@ -31,9 +31,8 @@ public class DepartamentoController {
 	}
 	
 	@PostMapping("/salvar")
-	public String salvar(Departamento departamento, RedirectAttributes attr) {
+	public String salvar(Departamento departamento) {
 		service.salvar(departamento);
-		attr.addFlashAttribute("success", "Departamento incluído com sucesso.");
 		return "redirect:/departamentos/cadastrar";
 	}
 	
