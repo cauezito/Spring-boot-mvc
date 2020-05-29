@@ -54,7 +54,6 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 	    $('#ok_confirm').click(function(){
 	    	document.location.href = url;
 	    });
-	    
 		$(function() {
 			$('[data-toggle="popover"]').popover();
 		});
