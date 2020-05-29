@@ -60,6 +60,6 @@ public class CargoController {
 	public String editar(Cargo cargo, RedirectAttributes attr) {
 		cargoService.editar(cargo);
 		attr.addFlashAttribute("success", "Cargo editado com sucesso.");
-		return "redirect:/cargos/cadastrar";
+		return "redirect:/departamentos/cadastrar";
 	}
 }
