@@ -1,0 +1,13 @@
+#DB
+spring.datasource.url = jdbc:mysql://localhost:3306/demo_mvc?createDatabaseIfNotExist=true
+spring.datasource.username = root
+spring.datasource.password = 134679ca
+spring.datasource.driver-class-name= com.mysql.cj.jdbc.Driver
+
+#JPA
+spring.jpa.hibernate.ddl-auto = update
+spring.jpa.show-sql = true
+spring.jpa.open-in-view = true
+
+#THYMELEAF 
+spring.thymeleaf.cache = false
