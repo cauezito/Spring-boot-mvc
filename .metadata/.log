@@ -5448,3 +5448,302 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:23:02.775
 !MESSAGE executing callback sts4.classpath.lGlfPGTF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:56:08.952
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lGlfPGTF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:56:08.988
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.lGlfPGTF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:56:08.996
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:56:09.334
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lGlfPGTF => OK
+!SESSION 2020-05-30 19:24:53.215 -----------------------------------------------
+eclipse.buildId=4.6.1.202004200639-RELEASE
+java.version=1.8.0_241
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2020-05-30 19:31:15.809
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-05-30 19:31:15.809
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.jface 2 0 2020-05-30 19:31:26.712
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-30 19:31:26.712
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39a1e1e6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2daa5092,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:31:55.677
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:31:55.692
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@22120799[org.springframework.tooling.boot.ls:1.17.0.202004200519(id=636)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:31:55.755
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:31:56.624
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-05-30 19:32:08.560
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Cauê'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:32:43.041
+!MESSAGE Boot LS startup time from start to initialized: 47191ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:32:43.344
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.wTPHiUpNisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:32:43.354
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:32:43.363
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:32:43.376
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:32:43.386
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:32:43.397
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:32:43.405
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:32:43.415
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.wTPHiUpN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:32:43.438
+!MESSAGE classpath=127 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:32:43.454
+!MESSAGE buffering callback sts4.classpath.wTPHiUpN demo-mvc false 127
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:32:43.464
+!MESSAGE executing callback sts4.classpath.wTPHiUpN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:32:43.874
+!MESSAGE executing callback sts4.classpath.wTPHiUpN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:34:16.601
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.wTPHiUpN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:34:16.619
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.wTPHiUpN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:34:16.634
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:34:16.647
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.wTPHiUpN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:34:35.425
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:34:35.439
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@22120799[org.springframework.tooling.boot.ls:1.17.0.202004200519(id=636)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:34:35.449
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:34:38.694
+!MESSAGE Boot LS startup time from start to initialized: 3235ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:34:38.747
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fJiWIsLfisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:34:38.759
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:34:38.771
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:34:38.783
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:34:38.797
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:34:38.806
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:34:38.815
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:34:38.822
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fJiWIsLf => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:34:38.833
+!MESSAGE classpath=127 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:34:38.847
+!MESSAGE buffering callback sts4.classpath.fJiWIsLf demo-mvc false 127
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:34:38.855
+!MESSAGE executing callback sts4.classpath.fJiWIsLf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:34:38.951
+!MESSAGE executing callback sts4.classpath.fJiWIsLf SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-30 19:46:22.396
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.0.12.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.0.12.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-30 19:46:22.552
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.0.12.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.0.12.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:46:27.934
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:46:28.130
+!MESSAGE classpath=129 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:46:28.280
+!MESSAGE buffering callback sts4.classpath.fJiWIsLf demo-mvc false 129
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-30 19:46:28.301
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.0.12.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.0.12.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:46:28.313
+!MESSAGE executing callback sts4.classpath.fJiWIsLf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:46:28.473
+!MESSAGE executing callback sts4.classpath.fJiWIsLf SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-30 19:46:32.435
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.0.12.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.0.12.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-30 19:46:34.039
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.0.12.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.0.12.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:46:35.575
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:46:35.643
+!MESSAGE classpath=129 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:46:35.664
+!MESSAGE buffering callback sts4.classpath.fJiWIsLf demo-mvc false 129
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:46:35.677
+!MESSAGE executing callback sts4.classpath.fJiWIsLf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:46:35.703
+!MESSAGE executing callback sts4.classpath.fJiWIsLf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:46:36.656
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:46:36.699
+!MESSAGE classpath=129 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:46:36.747
+!MESSAGE buffering callback sts4.classpath.fJiWIsLf demo-mvc false 129
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:46:36.769
+!MESSAGE executing callback sts4.classpath.fJiWIsLf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:46:36.818
+!MESSAGE executing callback sts4.classpath.fJiWIsLf SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2020-05-30 19:49:15.293
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:108)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:41)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.ui 2 2 2020-05-30 19:54:40.563
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:57:01.911
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fJiWIsLf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:57:01.933
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.fJiWIsLf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:57:01.946
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:57:01.958
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fJiWIsLf => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:59:00.301
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:59:00.310
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@22120799[org.springframework.tooling.boot.ls:1.17.0.202004200519(id=636)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:59:00.318
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:59:02.687
+!MESSAGE Boot LS startup time from start to initialized: 2360ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:59:02.740
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jvDwHvZCisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:59:02.750
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:59:02.760
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:59:02.772
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:59:02.782
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:59:02.790
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:59:02.798
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:59:02.805
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jvDwHvZC => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:59:02.814
+!MESSAGE classpath=129 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:59:02.830
+!MESSAGE buffering callback sts4.classpath.jvDwHvZC demo-mvc false 129
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:59:02.838
+!MESSAGE executing callback sts4.classpath.jvDwHvZC 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-30 19:59:02.873
+!MESSAGE executing callback sts4.classpath.jvDwHvZC SUCCESS [done]
