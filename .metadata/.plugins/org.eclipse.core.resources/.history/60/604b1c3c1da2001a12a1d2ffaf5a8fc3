@@ -1,7 +1,6 @@
 package br.com.cauezito.curso.boot.service;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -64,11 +63,8 @@ public class FuncionarioServiceImpl implements FuncionarioService {
 			return dao.findByDataEntradaDataSaida(entrada, saida);
 		} else if (entrada != null) {
 			return dao.findByDataEntrada(entrada);
-		} else if (saida != null) {
-			return dao.findyByDataSaida(saida);
-		} else {
-			return new ArrayList<>();
-		}		
+		}
+		
 	}
 
 }

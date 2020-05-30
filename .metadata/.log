@@ -5388,3 +5388,63 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2020-05-29 21:02:45.855
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:21:21.560
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zWzthuSM
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:21:21.571
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.zWzthuSM
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:21:21.580
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:21:21.590
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zWzthuSM => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:22:49.154
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:22:49.163
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@43a8dd9b[org.springframework.tooling.boot.ls:1.17.0.202004200519(id=636)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:22:49.189
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:23:01.290
+!MESSAGE Boot LS startup time from start to initialized: 12085ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:23:01.497
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lGlfPGTFisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:23:01.506
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:23:01.514
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:23:01.522
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:23:01.530
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:23:01.539
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:23:01.548
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:23:01.557
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lGlfPGTF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:23:01.712
+!MESSAGE classpath=127 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:23:01.727
+!MESSAGE buffering callback sts4.classpath.lGlfPGTF demo-mvc false 127
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:23:01.737
+!MESSAGE executing callback sts4.classpath.lGlfPGTF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-29 23:23:02.775
+!MESSAGE executing callback sts4.classpath.lGlfPGTF SUCCESS [done]
