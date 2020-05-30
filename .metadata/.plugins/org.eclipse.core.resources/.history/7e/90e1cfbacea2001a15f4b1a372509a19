@@ -31,7 +31,7 @@
 	                        <label for="nome">Nome do Funcionário</label>
 	                        <input type="text" class="form-control" id="nome" placeholder="Nome Completo"
 	                               autofocus="autofocus" th:field="*{nome}"
-	                                th:classappend="${#fields.hasErrors('nome')} ? 'is-invalid'"/>
+	                                th:classappend="${#fields.hasErrors('nome')} ? 'is-invalid'" />/>
 	                        <div class="invalid-feedback">
 								<span th:errors="*{nome}"></span>
 	                        </div>
@@ -40,7 +40,7 @@
 	                        <label for="salario">Salário Bruto</label>
 	                        <input type="text" class="form-control" id="salario" data-mask="#.##0,00"
 	                               data-mask-reverse="true" th:field="*{salario}"
-	                                th:classappend="${#fields.hasErrors('salario')} ? 'is-invalid'"/>
+	                                th:classappend="${#fields.hasErrors('salario')} ? 'is-invalid'" />/>
 	                        <div class="invalid-feedback">
 									<span th:errors="*{salario}"></span>
 	                        </div>
@@ -145,7 +145,7 @@
 	                               th:field="*{endereco.cep}"
 	                               th:classappend="${#fields.hasErrors('endereco.cep')} ? 'is-invalid'"/>
 	                        <div class="invalid-feedback">
-								<span th:errors="*{endereco.cep}"></span>
+	
 	                        </div>
 	                    </div>
 	                </div>
