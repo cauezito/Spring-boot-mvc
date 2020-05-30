@@ -126,7 +126,7 @@
 	                                    f.endereco.logradouro, ', ', f.endereco.numero, ' ',
 	                                    f.endereco.complemento, ' - ', f.endereco.bairro, ', ',
 	                                    f.endereco.cidade, ' - ', f.endereco.uf.sigla, ' - ',
-	                                    f.endereco.cep)}">
+	                                    f.endereco.cep)})">
 	                                <span class="oi oi-eye" title="Visualizar" aria-hidden="true"></span>
 	                            </button>
 	                        </td>
