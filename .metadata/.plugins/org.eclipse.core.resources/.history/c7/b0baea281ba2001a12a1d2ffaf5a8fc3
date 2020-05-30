@@ -54,9 +54,9 @@
 	
 	                        <nav class="navbar navbar-light bg-light">
 	                            <form class="form-inline" method="GET" th:action="@{/funcionarios/buscar/cargo}">
-	                                <select class="form-control mr-sm-2" th:name="id" aria-label="Search">
+	                                <select class="form-control mr-sm-2" name="cargo" aria-label="Search">
 	                                    <option value="">Cargo</option>
-	                                    <option th:each="c : ${cargos}" th:value=${c.id} th:text=${c.name}></option>
+	                                    <option value="1">Auxiliar Contábil</option>
 	      
 	                                </select>
 	                                <button class="btn btn-outline-success my-2 my-sm-0">Search</button>

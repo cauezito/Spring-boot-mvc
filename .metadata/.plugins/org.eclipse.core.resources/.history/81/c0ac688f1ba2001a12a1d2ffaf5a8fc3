@@ -2,7 +2,6 @@ package br.com.cauezito.curso.boot.service;
 
 import java.util.List;
 
-import br.com.cauezito.curso.boot.domain.Cargo;
 import br.com.cauezito.curso.boot.domain.Funcionario;
 
 public interface FuncionarioService {
@@ -12,5 +11,4 @@ public interface FuncionarioService {
 	Funcionario buscarPorId(Long id);
 	List<Funcionario> buscarTodos();
 	List<Funcionario> buscarPorNome(String nome);
-	List<Funcionario> buscarPorCargo(Long id);
 }
