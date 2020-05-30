@@ -1,0 +1,5 @@
+package br.com.cauezito.curso.boot.web.conversor;
+
+public class StringToCargoConversor implements Converter<String, Cargo>{
+
+}
