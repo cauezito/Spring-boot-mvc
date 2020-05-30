@@ -3,8 +3,6 @@ package br.com.cauezito.curso.boot.web.controller;
 import java.time.LocalDate;
 import java.util.List;
 
-import javax.validation.Valid;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Controller;
@@ -63,10 +61,7 @@ public class FuncionarioController {
 	}
 	
 	@PostMapping("/editar")
-	public String editar(@Valid Funcionario funcionario, BindingResult result, RedirectAttributes attr) {
-		if(result.hasErrors()) {
-			return "/funcionario/cadastro";
-		}
+	public String editar(Funcionario funcionario, RedirectAttributes attr) {
 		funcionarioService.editar(funcionario);
 		attr.addFlashAttribute("success", "Funcionário editado com sucesso.");
 		return "redirect:/funcionarios/cadastrar";

@@ -30,7 +30,7 @@ public class Funcionario extends AbstractEntity<Long> {
 	private BigDecimal salario;
 	
 	@NotNull
-	@PastOrPresent(message = "{PastOrPresent.funcionario.dataEntrada}")
+	@PastOrPresent(message = "{PastOrPresent.funcionario.dataEntrada")
 	@DateTimeFormat(iso = ISO.DATE)
 	@Column(name = "data_entrada", nullable = false, columnDefinition = "DATE")
 	private LocalDate dataEntrada;
@@ -44,7 +44,7 @@ public class Funcionario extends AbstractEntity<Long> {
 	@JoinColumn(name = "endereco_id_fk")
 	private Endereco endereco;
 	
-	@NotNull(message = "{NotNull.funcionario.cargo}")
+	@NotNull(message = "{NotNull.funcionario.cargo")
 	@ManyToOne
 	@JoinColumn(name = "cargo_id_fk")
 	private Cargo cargo;
