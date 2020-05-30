@@ -45,8 +45,8 @@ public class FuncionarioServiceImpl implements FuncionarioService {
 
 	@Override
 	public List<Funcionario> buscarPorNome(String nome) {
-		
-		return dao.findByNome(nome);
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

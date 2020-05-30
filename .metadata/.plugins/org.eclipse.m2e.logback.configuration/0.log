@@ -3667,3 +3667,107 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact mysql:mysql-c
 2020-05-29 22:36:16,784 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2020-05-29 22:36:16,791 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
 2020-05-29 22:36:16,795 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 22:36:16,795 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cauê\Desktop\Estudo\Java\Spring - Udemy\demo-mvc\src\test\resources
+2020-05-29 22:42:24,057 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 22:42:24,065 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-29 22:42:24,074 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
+2020-05-29 22:42:24,081 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 22:42:24,082 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cauê\Desktop\Estudo\Java\Spring - Udemy\demo-mvc\src\test\resources
+2020-05-29 22:48:01,692 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 22:48:01,693 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-29 22:48:01,693 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-29 22:48:01,700 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 22:48:01,700 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cauê\Desktop\Estudo\Java\Spring - Udemy\demo-mvc\src\test\resources
+2020-05-29 22:55:31,606 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 22:55:31,607 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-29 22:55:31,607 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-29 22:55:31,613 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 22:55:31,613 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cauê\Desktop\Estudo\Java\Spring - Udemy\demo-mvc\src\test\resources
+2020-05-29 22:57:26,763 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 22:57:26,764 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-29 22:57:26,765 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-29 22:57:26,770 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 22:57:26,770 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cauê\Desktop\Estudo\Java\Spring - Udemy\demo-mvc\src\test\resources
+2020-05-29 22:57:39,894 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 22:57:39,894 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-29 22:57:39,895 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-29 22:57:39,900 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 22:57:39,900 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cauê\Desktop\Estudo\Java\Spring - Udemy\demo-mvc\src\test\resources
+2020-05-29 22:58:00,847 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 22:58:00,848 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-29 22:58:00,848 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-29 22:58:00,853 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 22:58:00,854 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cauê\Desktop\Estudo\Java\Spring - Udemy\demo-mvc\src\test\resources
+2020-05-29 22:58:04,822 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 22:58:04,823 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-29 22:58:04,825 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-29 22:58:04,926 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 22:58:04,926 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cauê\Desktop\Estudo\Java\Spring - Udemy\demo-mvc\src\test\resources
+2020-05-29 22:59:53,284 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 22:59:53,288 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-29 22:59:53,293 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
+2020-05-29 22:59:53,298 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 22:59:53,298 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cauê\Desktop\Estudo\Java\Spring - Udemy\demo-mvc\src\test\resources
+2020-05-29 23:00:06,370 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:00:06,374 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-29 23:00:06,380 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
+2020-05-29 23:00:06,384 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:00:06,384 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cauê\Desktop\Estudo\Java\Spring - Udemy\demo-mvc\src\test\resources
+2020-05-29 23:02:54,941 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:02:54,947 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-29 23:02:54,959 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
+2020-05-29 23:02:54,965 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:02:54,965 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cauê\Desktop\Estudo\Java\Spring - Udemy\demo-mvc\src\test\resources
+2020-05-29 23:03:56,770 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:03:56,774 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-29 23:03:56,781 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
+2020-05-29 23:03:56,788 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:03:56,788 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cauê\Desktop\Estudo\Java\Spring - Udemy\demo-mvc\src\test\resources
+2020-05-29 23:04:09,518 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:04:09,522 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-29 23:04:09,527 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
+2020-05-29 23:04:09,531 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:04:09,531 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cauê\Desktop\Estudo\Java\Spring - Udemy\demo-mvc\src\test\resources
+2020-05-29 23:04:16,605 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:04:16,609 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-29 23:04:16,614 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
+2020-05-29 23:04:16,619 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:04:16,619 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cauê\Desktop\Estudo\Java\Spring - Udemy\demo-mvc\src\test\resources
+2020-05-29 23:04:51,171 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:04:51,177 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-29 23:04:51,183 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
+2020-05-29 23:04:51,187 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:04:51,187 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cauê\Desktop\Estudo\Java\Spring - Udemy\demo-mvc\src\test\resources
+2020-05-29 23:04:59,581 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:04:59,587 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-29 23:04:59,595 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
+2020-05-29 23:04:59,601 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:04:59,601 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cauê\Desktop\Estudo\Java\Spring - Udemy\demo-mvc\src\test\resources
+2020-05-29 23:07:10,215 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:07:10,220 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-29 23:07:10,227 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
+2020-05-29 23:07:10,232 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:07:10,232 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cauê\Desktop\Estudo\Java\Spring - Udemy\demo-mvc\src\test\resources
+2020-05-29 23:07:19,656 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:07:19,660 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-29 23:07:19,665 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
+2020-05-29 23:07:19,669 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:07:19,670 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cauê\Desktop\Estudo\Java\Spring - Udemy\demo-mvc\src\test\resources
+2020-05-29 23:07:53,853 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:07:53,857 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-29 23:07:53,862 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
+2020-05-29 23:07:53,868 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:07:53,868 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cauê\Desktop\Estudo\Java\Spring - Udemy\demo-mvc\src\test\resources
+2020-05-29 23:08:05,509 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:08:05,512 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-29 23:08:05,517 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
+2020-05-29 23:08:05,520 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:08:05,521 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cauê\Desktop\Estudo\Java\Spring - Udemy\demo-mvc\src\test\resources
+2020-05-29 23:10:08,902 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:10:08,908 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-29 23:10:08,917 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
+2020-05-29 23:10:08,925 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:10:08,925 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Cauê\Desktop\Estudo\Java\Spring - Udemy\demo-mvc\src\test\resources
+2020-05-29 23:11:13,305 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-29 23:11:13,311 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-29 23:11:13,338 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources

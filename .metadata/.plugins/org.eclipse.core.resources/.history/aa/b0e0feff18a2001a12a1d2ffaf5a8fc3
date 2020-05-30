@@ -40,7 +40,7 @@
 	                        <nav class="navbar navbar-light bg-light">
 	                            <form class="form-inline" method="GET" th:action="@{/funcionarios/buscar/nome}">
 	                                <input class="form-control mr-sm-2" type="search" 
-	                                placeholder="nome" aria-label="Search" th:name="nome" />
+	                                placeholder="nome" aria-label="Search" th:name="{nome}" />
 	                                <button class="btn btn-outline-success my-2 my-sm-0">Search</button>
 	                            </form>
 	                        </nav>
