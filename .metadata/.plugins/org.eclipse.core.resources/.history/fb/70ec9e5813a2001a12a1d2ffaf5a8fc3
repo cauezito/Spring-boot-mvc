@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import br.com.cauezito.curso.boot.domain.Cargo;
+import br.com.cauezito.curso.boot.domain.Departamento;
 import br.com.cauezito.curso.boot.domain.Funcionario;
 import br.com.cauezito.curso.boot.domain.UF;
 import br.com.cauezito.curso.boot.service.CargoService;
@@ -54,16 +55,21 @@ public class FuncionarioController {
 	
 	@PostMapping("/editar")
 	public String editar(Funcionario funcionario, RedirectAttributes attr) {
-		funcionarioService.editar(funcionario);
-		attr.addFlashAttribute("success", "Funcionário editado com sucesso.");
-		return "redirect:/funcionarios/cadastrar";
+		service.editar(departamento);
+		attr.addFlashAttribute("success", "Departamento editado com sucesso.");
+		return "redirect:/departamentos/cadastrar";
 	}
 	
 	@GetMapping("/excluir/{id}")
-	public String excluir(@PathVariable("id") Long id, RedirectAttributes attr) {
-		funcionarioService.excluir(id);
-		attr.addFlashAttribute("success", "Funcionário excluído com sucesso!");		
-		return "redirect:/funcionarios/listar";
+	public String excluir(@PathVariable("id") Long id, ModelMap model) {
+		if(service.departamentoTemCargos(id)){
+			model.addAttribute("fail", "Departamento não removido. Há cargo(s) vinculado(s) a ele.");
+		} else {
+			service.excluir(id);
+			model.addAttribute("success", "Departamento excluído com sucesso!");
+		}
+		//O retorno chama o método "listar" dessa classe
+		return listar(model);
 	}
 	
 	@ModelAttribute("cargos")

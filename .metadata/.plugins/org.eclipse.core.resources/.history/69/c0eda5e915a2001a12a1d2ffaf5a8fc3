@@ -55,7 +55,8 @@
 	                    <div class="form-group col-md-6">
 	                        <label for="dataSaida">Data de Saída</label>
 	                        <input type="date" class="form-control" id="dataSaida" th:field="*{dataSaida}"/>
-	                        <div class="invalid-feedback">	
+	                        <div class="invalid-feedback">
+	
 	                        </div>
 	                    </div>
 	                </div>
