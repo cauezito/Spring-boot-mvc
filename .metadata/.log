@@ -6234,3 +6234,110 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 18:36:32.218
 !MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.0.12.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.0.12.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:39:32.561
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:39:32.561
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4f54b976[org.springframework.tooling.boot.ls:1.17.0.202004200519(id=636)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:39:32.624
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:39:33.206
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:39:37.424
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:39:37.440
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4f54b976[org.springframework.tooling.boot.ls:1.17.0.202004200519(id=636)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:39:37.440
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:39:57.188
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:39:57.204
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4f54b976[org.springframework.tooling.boot.ls:1.17.0.202004200519(id=636)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:39:57.219
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.lsp4e 4 0 2020-05-31 18:39:57.806
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:108)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:41)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:39:59.717
+!MESSAGE Boot LS startup time from start to initialized: 2482ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:40:00.264
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.uPCBYsbsisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:40:00.295
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:40:00.295
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:40:00.311
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:40:00.326
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:40:00.326
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:40:00.342
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:40:00.342
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.uPCBYsbs => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:40:00.357
+!MESSAGE classpath=129 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:40:00.373
+!MESSAGE buffering callback sts4.classpath.uPCBYsbs demo-mvc false 129
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:40:00.389
+!MESSAGE executing callback sts4.classpath.uPCBYsbs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 18:40:00.529
+!MESSAGE executing callback sts4.classpath.uPCBYsbs SUCCESS [done]
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2020-05-31 18:49:08.409
+!MESSAGE Connection closed with CodeTogether backend: 
+
+!ENTRY org.eclipse.lsp4e 4 0 2020-05-31 18:51:28.657
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:108)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:41)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 18:58:10.934
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.0.12.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.0.12.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 18:58:11.748
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.0.12.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.0.12.Final
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2020-05-31 18:58:16.879
+!MESSAGE Connection closed with CodeTogether backend: 
