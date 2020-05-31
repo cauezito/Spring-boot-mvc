@@ -6341,3 +6341,132 @@ java.lang.InterruptedException
 
 !ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2020-05-31 18:58:16.879
 !MESSAGE Connection closed with CodeTogether backend: 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:05:53.625
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.0.12.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.0.12.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:09:59.642
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:09:59.672
+!MESSAGE classpath=130 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:09:59.691
+!MESSAGE buffering callback sts4.classpath.uPCBYsbs demo-mvc false 130
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:09:59.704
+!MESSAGE executing callback sts4.classpath.uPCBYsbs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:09:59.741
+!MESSAGE executing callback sts4.classpath.uPCBYsbs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:35.219
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.uPCBYsbs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:35.231
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.uPCBYsbs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:35.243
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:35.253
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.uPCBYsbs => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:37.251
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:37.258
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4f54b976[org.springframework.tooling.boot.ls:1.17.0.202004200519(id=636)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:37.273
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:37.647
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:37.660
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4f54b976[org.springframework.tooling.boot.ls:1.17.0.202004200519(id=636)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:37.673
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:40.147
+!MESSAGE Boot LS startup time from start to initialized: 2463ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:40.184
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.VVWUTGOOisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:40.192
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:40.201
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:40.209
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:40.219
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:40.228
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:40.236
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:40.243
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.VVWUTGOO => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:40.252
+!MESSAGE classpath=130 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:40.267
+!MESSAGE buffering callback sts4.classpath.VVWUTGOO demo-mvc false 130
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:40.274
+!MESSAGE executing callback sts4.classpath.VVWUTGOO 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:22:40.320
+!MESSAGE executing callback sts4.classpath.VVWUTGOO SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:24:29.950
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.0.12.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.0.12.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:24:32.703
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:24:32.773
+!MESSAGE classpath=130 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:24:32.853
+!MESSAGE buffering callback sts4.classpath.VVWUTGOO demo-mvc false 130
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:24:32.873
+!MESSAGE executing callback sts4.classpath.VVWUTGOO 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:24:32.939
+!MESSAGE executing callback sts4.classpath.VVWUTGOO SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:24:35.021
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.0.12.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.0.12.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:30:37.710
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.0.12.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.0.12.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:30:39.283
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:30:39.305
+!MESSAGE classpath=130 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:30:39.325
+!MESSAGE buffering callback sts4.classpath.VVWUTGOO demo-mvc false 130
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:30:39.337
+!MESSAGE executing callback sts4.classpath.VVWUTGOO 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-31 19:30:39.361
+!MESSAGE executing callback sts4.classpath.VVWUTGOO SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-31 19:30:41.784
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.0.12.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.0.12.Final
