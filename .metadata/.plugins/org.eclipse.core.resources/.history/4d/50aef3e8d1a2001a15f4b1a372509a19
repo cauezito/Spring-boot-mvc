@@ -25,7 +25,6 @@ import br.com.cauezito.curso.boot.domain.Funcionario;
 import br.com.cauezito.curso.boot.domain.UF;
 import br.com.cauezito.curso.boot.service.CargoService;
 import br.com.cauezito.curso.boot.service.FuncionarioService;
-import br.com.cauezito.curso.boot.web.validator.FuncionarioValidator;
 
 @Controller
 @RequestMapping("/funcionarios")
@@ -40,7 +39,7 @@ public class FuncionarioController {
 	//Faz com que seja o primeiro método dessa classe a ser executado
 	@InitBinder
 	public void initBinder(WebDataBinder binder) {
-		binder.addValidators(new FuncionarioValidator());
+		binder
 	}
 	
 	@GetMapping("/cadastrar")
